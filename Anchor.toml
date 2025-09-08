@@ -8,11 +8,14 @@ skip-lint = false
 [programs.localnet]
 blueshift_anchor_vault = "GkDgiDHW6bqNBJp8q3GvkSzmsHgEMzcEZK4AWRVy16Zj"
 
+[programs.devnet]
+blueshift_anchor_vault = "GkDgiDHW6bqNBJp8q3GvkSzmsHgEMzcEZK4AWRVy16Zj"
+
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "localnet"
+cluster = "devnet"
 wallet = "~/.config/solana/id.json"
 
 [scripts]
